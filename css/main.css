@@ -13,34 +13,36 @@ header {
   text-align: center;
   color: #fff;
   background-color: #79756f;
-  border: 3px solid #595652;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
 }
 
 h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, serif;
+  margin: .3em .3em auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .planets {
-  list-style-type: none;
   text-align: center;
+  list-style-type: none;
+  margin: auto;
 }
 
 .planets li {
   display: inline-block;
-  text-align: center;
-  margin: .3em;
-  padding: .5em .75em;
-  background-color: #713837;
-  border-radius: 4px;
-}
-
-.planets div {
-  text-align: center;
+  text-align: left;
+  margin: .3em auto;
 }
 
 .planets a {
+  text-align: center;
   display: inline-block;
-  padding: .6em;
+  padding: .5em .75em;
   background-color: #713837;
   color: #fff;
   text-decoration: none;
